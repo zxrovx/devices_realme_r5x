@@ -631,6 +631,9 @@ PRODUCT_PACKAGES += \
 # Viper4Android
 $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 
+# Dolby
+$(call inherit-product, packages/apps/Dolby/dolby.mk)
+
 # Remove Unwanted Packages
 PRODUCT_PACKAGES += \
     rmpkgs
