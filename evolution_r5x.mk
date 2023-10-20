@@ -24,11 +24,15 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+EVO_BUILD_TYPE := UNOFFICIAL
+
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
-TARGET_USES_PICO_GAPPS := true
+TARGET_USES_MINI_GAPPS := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_TOUCHGESTURES := true
 
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
