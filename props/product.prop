@@ -30,8 +30,8 @@ ro.lmk.filecache_min_kb=0
 ro.lmk.stall_limit_critical=10
 
 # Graphics
-debug.hwui.renderer=opengl
-debug.renderengine.backend=skiagl
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.skia_atrace_enabled=false
 debug.stagefright.renderengine.backend=gles
