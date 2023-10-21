@@ -94,9 +94,9 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_SOURCE := kernel/realme/r5x
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/proton-clang
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
-TARGET_KERNEL_CONFIG := vendor/R5X_defconfig
+TARGET_KERNEL_CONFIG := vendor/RMX1911_defconfig
 TARGET_KERNEL_OPTIONAL_LD := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM=1 LLVM_IAS=1 HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
