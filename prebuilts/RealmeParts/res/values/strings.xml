@@ -34,8 +34,8 @@
     <string name="reset">Reset</string>
 
     <!-- RealmeParts strings -->
-    <string name="realmeparts">RealmemeParts</string>
-    <string name="realmeparts_summary">Additional Realmeme Tweaks</string>
+    <string name="realmeparts">RealmeParts</string>
+    <string name="realmeparts_summary">Additional Settings For Realme</string>
 
     <!-- Vibration Slider -->
     <string name="vibrator_intensity_control">Vibration</string>
