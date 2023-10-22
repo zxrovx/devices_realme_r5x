@@ -32,7 +32,7 @@ using ::android::base::WriteStringToFile;
 
 // Default max brightness
 constexpr auto kDefaultMaxLedBrightness = 255;
-constexpr auto kDefaultMaxScreenBrightness = 4095;
+constexpr auto kDefaultMaxScreenBrightness = 2047;
 
 // Each step will stay on for 50ms by default.
 constexpr auto kRampStepDurationDefault = 50;
